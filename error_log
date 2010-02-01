@@ -3,3 +3,6 @@
 [27-Jul-2009 16:28:12] PHP Warning:  Invalid argument supplied for foreach() in /home/andren/public_html/melissasavcic.com/includes/news.php on line 10
 [31-Jan-2010 17:31:40] PHP Warning:  file_get_contents(http://twitter.com/statuses/user_timeline/MelissaSavcic.json?count=1) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
  in /home/andren/public_html/melissasavcic.com/includes/twitter2.php on line 8
+[31-Jan-2010 19:28:05] PHP Warning:  include(includes/twitter2.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/andren/public_html/melissasavcic.com/home.php on line 69
+[31-Jan-2010 19:28:05] PHP Warning:  include(includes/twitter2.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/andren/public_html/melissasavcic.com/home.php on line 69
+[31-Jan-2010 19:28:05] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'includes/twitter2.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/andren/public_html/melissasavcic.com/home.php on line 69
