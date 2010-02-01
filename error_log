@@ -1,0 +1,5 @@
+[27-Jul-2009 16:28:12] syntax error at line 1, column 14
+[27-Jul-2009 16:28:12] PHP Warning:  MagpieRSS: Failed to parse RSS file. (syntax error at line 1, column 14) in /home/andren/public_html/melissasavcic.com/includes/rss/rss_fetch.inc on line 238
+[27-Jul-2009 16:28:12] PHP Warning:  Invalid argument supplied for foreach() in /home/andren/public_html/melissasavcic.com/includes/news.php on line 10
+[31-Jan-2010 17:31:40] PHP Warning:  file_get_contents(http://twitter.com/statuses/user_timeline/MelissaSavcic.json?count=1) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in /home/andren/public_html/melissasavcic.com/includes/twitter2.php on line 8

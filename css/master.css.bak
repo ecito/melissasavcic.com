@@ -1,0 +1,406 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+/* style reset v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End reset */
+
+
+
+/* Begin my stuff */
+
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+	background: url(../images/radial-bg.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-color:#000;
+}
+
+.splash {
+	background: black;
+}
+
+.hidden {
+	display: none;
+}
+
+#page-container {
+	background-image:url(../images/page-bg.gif);
+	background-position:top center;
+	background-repeat:no-repeat;
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	padding-top: 40px;
+}
+
+#header {
+	background-image:url(../images/header.gif);
+	background-position:top center;
+	margin: auto;
+	height:  114px;
+	background-repeat:no-repeat;
+}
+
+#header h1 {
+	
+	text-indent: -5000px;
+	font-family: "lucida console", monospace;
+	font-size: 62px;
+	font-style:normal;
+}
+
+
+#nav {
+	padding: 0;
+ 	list-style: none;
+ 	margin: auto;
+	width: 680px;
+	height: 68px;
+}
+
+#nav a,
+#nav a.hover {
+	height: 68px;
+	position: relative;
+	display: block;
+	background:url(../images/nav.gif) 0 0 no-repeat;
+	background-position: 0 0;
+}
+
+
+#nav ul {
+	padding-left: 10px;
+	margin: 0;
+	
+}
+
+#nav li {
+	text-indent: -5000px;
+	float: left;
+	padding-left: 4px;
+	list-style: none;
+	width: 88px;
+	cursor:pointer;
+
+}
+
+
+#nav a.bio { background-position: 0 -30px; } 
+#nav a.bio:hover { background-position: 0 -128px; } 
+#nav a.home { background-position: 0 -226px; } 
+#nav a.home:hover { background-position: 0 -324px; } 
+#nav a.lyrics { background-position: 0 -422px; } 
+#nav a.lyrics:hover { background-position: 0 -520px; } 
+#nav a.photos:hover { background-position: 0 -618px; } 
+#nav a.photos { background-position: 0 -716px; } 
+#nav a.shop { background-position: 0 -814px; } 
+#nav a.shop:hover { background-position: 0 -912px; } 
+#nav a.shows { background-position: 0 -1010px; } 
+#nav a.shows:hover { background-position: 0 -1108px; } 
+#nav a.videos { background-position: 0 -1206px; } 
+#nav a.videos:hover { background-position: 0 -1304px; } 
+
+
+#player {
+	background-image: url(../images/sidebar.gif);
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 350px;
+	right: 0;
+	width: 151px;
+	height: 160px;
+	padding-top: 38px;
+	margin-right: 17px;
+	display: inline;
+	
+}
+
+#feed {
+	background-image: url(../images/sidebar-top.gif);
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 350px;
+	left: 0;
+	width: 151px;
+	height: auto;
+	padding-top: 34px;
+	margin-left: 20px;
+	display: inline;
+	
+}
+
+
+#content {
+	background: transparent;
+	position: relative;
+	margin: auto;
+	width: 640px;
+	height: 100%;
+	margin-top: 20px;
+}
+
+#content p {
+	font-family: "lucida console", monospace;
+	font-size: small;
+	text-align: justify;
+	text-indent: 2em;
+	line-height: 1.5em;
+}
+#content img {
+	float: left;
+	margin-right: 15px;
+	border: thin;
+	border-color: #C33;
+}
+
+
+#news {
+	width: 400px;
+	height: 400px;
+	background: lightblue;
+	float: right;
+}
+
+
+
+.reverbshows {
+	height: 260px;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin: auto;
+	width: 434px;
+}
+.reverbmail {
+	width:180px;
+	height:180px;
+	
+}
+
+
+
+#footer {
+	clear: both;
+	text-align: center;
+	background-image:url(../images/footer.gif);
+	background-repeat:no-repeat;
+	margin: auto;
+	width: 667px;
+	height: 220px;
+}
+
+#footer ul {
+	padding-left: 30px;
+	list-style: none;
+	padding-top: 130px;
+}
+
+
+
+#footer li {
+	text-indent: -5000px;
+	width: 80px;
+   	padding-left: 21px;
+	float: left;
+	cursor:pointer;
+}
+
+#footer a {
+	height: 64px;
+	position: relative;
+	display: block;
+	background: url(../images/footer-icons2.gif) 0 0 no-repeat; 
+}
+
+#footer a.facebook { background-position: 0 -30px; } 
+#footer a.lastfm { background-position: 0 -124px; } 
+#footer a.myspace { background-position: 0 -218px; } 
+#footer a.reverbnation { background-position: 0 -312px; } 
+#footer a.twitter { background-position: 0 -407px; } 
+#footer a.youtube { background-position: 0 -501px; } 
+
+.gallery {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.gallery_unstyled img {
+	width: 320px;
+	height: 240px;
+	
+}
+
+/* LYRICS */
+
+#lyrics-left {
+	float: left;
+	width: 150px;
+	font-family: "Lucida Console";
+	height: 400px;
+	
+
+}
+
+
+#lyrics-left li {
+	cursor:pointer;
+	padding-bottom: 0.5em;
+
+}
+
+#content .lyrics-right p {
+	font-family: "lucida console", monospace;
+	font-size: small;
+	text-align: justify;
+	line-height: 1.5em;
+	text-indent: 0em;
+	padding-bottom: 0.5em;
+}
+
+#content .lyrics-right h2 {
+	font-family: "lucida console", monospace;
+	margin-bottom: 20px;
+}
+
+.lyrics-right div {
+	position: absolute;
+	right: 0;
+	border-left: .1em solid black;
+	border-top: .1em solid black;
+	border-bottom: .1em solid black;
+	padding-left: .3em;
+	margin-left: 10px;
+	width: 455px;
+	height: 400px;
+	overflow: auto;
+	display: none;
+	margin-bottom: 15px;
+}
+
+.lyrics-right h2 {
+	text-align: center;
+}
+
+.lyrics-right div.show {  
+     display:block;  
+}  
+
+
+
+#slider {
+	width: 200px;
+	height: 300px;
+	float: left;
+}
+#slider ul, $slider li {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#slider li {
+	width: 200px;
+	height: 300px;
+	overflow: hidden;
+}
+
+#prevBtn, #nextBtn{ 
+	display: none;
+}	
+
+
+
+/*JUITTER PLUGIN CSS*/
+#juitterContainer{
+	
+} /*Juitter container*/
+#juitterContainer .twittList{
+	background-image:url(../images/twitter.gif);
+	background-position: top right;
+	background-repeat: no-repeat;
+	margin:0;
+	padding:0;} /* UL that will contain the list of tweets */
+/* Bellow the list of tweets "<li>" */
+#juitterContainer .twittLI{
+	font-family: "lucida console", monospace;
+	font-size: 0.8em;
+	list-style:none;
+	background:transparent;
+	margin:0;padding:0 0 0 0;
+	/* border-bottom:dashed 1px #CAF8C9;*/
+	padding:3px;
+	clear:both;
+	height:auto;
+	word-wrap: break-word;
+}
+#juitterContainer .twittList A{color:#000;} /*Links inside the tweets list */
+/* Bellow the CSS for the avatar image  */
+#juitterContainer .juitterAvatar{float:left;border:solid 1px #D3EECA;background:#FFF;margin-right:5px;padding:2px;width:48px;;height:48px;}
+#juitterContainer .jRM{bottom:0;float:right;clear:both} /*read it on twitter link*/
+#juitterContainer .extLink{} /*CSS for the external links*/
+#juitterContainer .hashLink{} /*CSS for the hash links*/
+.bottomBorder{
+	clear:both;
+	background-image:url(../images/sidebar-bot.gif);
+}
+/*end of Juitter CSS*/
+
+

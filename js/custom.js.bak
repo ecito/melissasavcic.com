@@ -1,0 +1,71 @@
+$(document).ready(function() {  
+
+	
+
+	$("#nav a.home").click(function() {
+		$('#nav a.home').removeAttr('href');
+		$('#content').slideUp("slow");
+		$("#content").load("home.php #content");
+		$('#content').slideDown("slow");
+		document.title = 'melissa savcic :: home';
+	});
+	
+	$("#nav a.bio").click(function() {
+		$('#nav a.bio').removeAttr('href');
+		$('#content').slideUp("slow");
+		$("#content").load("bio.php #content");
+		$('#content').slideDown("slow");
+		document.title = 'melissa savcic :: bio';
+	});
+	
+	$("#nav a.shows").click(function() {
+		$('#nav a.shows').removeAttr('href');
+		$('#content').slideUp("slow");
+		$("#content").load("shows.php #content");
+		$('#content').slideDown("slow");
+		document.title = 'melissa savcic :: shows';
+	});
+	
+	$("#nav a.videos").click(function() {
+		$('#nav a.videos').removeAttr('href');
+		$('#content').slideUp("slow");
+		$("#content").load("videos.php #content");
+		$('#content').slideDown("slow");
+		document.title = 'melissa savcic :: videos';
+	});
+	
+	$("#nav a.photos").click(function() {
+		$('#nav a.photos').removeAttr('href');
+		$('#content').slideUp("slow");
+		$("#content").load("includes/gallery.php");
+		$('#content').slideDown("slow");
+		document.title = 'melissa savcic :: photos';
+	});
+	
+	$("#nav a.lyrics").click(function() {
+		$('#nav a.lyrics').removeAttr('href');
+		$('#content').slideUp("slow");
+		$("#content").load("includes/lyric-menu.php");
+		$('#content').slideDown("slow");
+		document.title = 'melissa savcic :: lyrics';
+	});
+	
+	$("#nav a.shop").click(function() {
+		$('#nav a.shop').removeAttr('href');
+		$('#content').slideUp("slow");
+		$("#content").load("shop.php #content");
+		$('#content').slideDown("slow");
+		document.title = 'melissa savcic :: shop';
+	});
+	
+	
+	
+	//LYRICS
+	
+	
+	
+	
+	//GALLERY
+	
+	
+ });

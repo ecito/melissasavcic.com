@@ -1,0 +1,8 @@
+<IfModule mod_suphp.c>
+ suPHP_ConfigPath /home/andren/www/melissasavcic.com
+ <Files php.ini>
+   order allow,deny
+   deny from all
+ </Files>
+</IfModule>
+

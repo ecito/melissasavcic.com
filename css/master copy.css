@@ -1,0 +1,255 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body {
+	margin: 0;
+	padding: 0;
+	background: #c7c1bf;
+}
+
+.splash {
+	background: black;
+}
+
+.hidden {
+	display: none;
+}
+
+#page-container {
+	background-image:url(../images/top-bg.jpg);
+	background-position:top center;
+	background-repeat:no-repeat;
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+}
+
+#page-container-homepage {
+	background-image:url(../images/top-bg.jpg);
+	background-position:top center;
+	background-repeat:no-repeat;
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	
+}
+#header {
+	background-image:url(../images/header.gif);
+	background-position:top center;
+	margin: auto;
+	height: 150px;
+	background-repeat:no-repeat;
+
+}
+
+#header h1 {
+	margin: 0;
+	padding: 0;
+	float: right;
+	margin-top: 40px;
+	padding-right: 240px;
+	font-family: "lucida console", monospace;
+	font-size: 62px;
+	font-style:normal;
+}
+
+
+#nav {
+	padding: 0;
+ 	list-style: none;
+ 	margin: auto;
+	width: 680px;
+	height: 68px;
+}
+
+#nav a,
+#nav a.hover {
+	height: 68px;
+	position: relative;
+	display: block;
+	background:url(../images/nav.png) 0 0 no-repeat;
+}
+
+
+#nav ul {
+	padding-left: 10px;
+	margin: 0;
+	
+}
+
+#nav li {
+	text-indent: -5000px;
+	float: left;
+	padding-left: 18px;
+	list-style: none;
+	width: 88px;
+	cursor:pointer;
+
+}
+
+#nav a.bio { background-position: 0 -68px; } 
+#nav a.bio:hover { background-position: 0 -204px; } 
+
+
+#nav .home { background-position: 0 -340px; } 
+#nav .home:hover { background-position: 0 -476px; } 
+
+#nav a.lyrics { background-position: 0 -612px; } 
+#nav a.lyrics:hover { background-position: 0 -748px; } 
+
+#nav a.photos { background-position: 0 -1020px; } 
+#nav a.photos:hover  { background-position: 0 -884px; } 
+
+
+#nav a.shop { background-position: 0 -1156px; } 
+#nav a.shop:hover  { background-position: 0 -1292px; } 
+
+#nav a.shows { background-position: 0 -1428px; } 
+#nav a.shows:hover  { background-position: 0 -1564px; }
+
+#player {
+	background-image: url(../images/sidebar.gif);
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 350px;
+	right: 0;
+	width: 160px;
+	height: 168px;
+	padding-top: 38px;
+	margin-right: 5px;
+	
+}
+
+#content {
+	background: transparent;
+	position: relative;
+	margin: auto;
+	width: 640px;
+	height: 100%;
+	margin-top: 20px;
+}
+
+#content p {
+	font-family: "lucida console", monospace;
+	font-size: small;
+	text-align: justify;
+	text-indent: 2em;
+	line-height: 1.5em;
+}
+#content img {
+	float: left;
+	margin-right: 15px;
+	border: thin;
+	border-color: #C33;
+}
+
+.reverbshows {
+	height: 247px;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin: auto;
+	width: 434px;
+}
+.reverbmail {
+	width:180px;
+	height:180px;
+	
+}
+
+
+
+#footer {
+	clear: both;
+	text-align: center;
+	background-image:url(../images/footer.gif);
+	background-repeat:no-repeat;
+	margin-top: 15px;
+	margin: auto;
+	width: 680px;
+	left: 180px;
+	height: 220px;
+}
+
+#footer ul {
+	
+	list-style: none;
+	padding-top: 130px;
+}
+
+
+
+#footer li {
+	text-indent: -5000px;
+	width: 80px;
+   	padding-left: 21px;
+	float: left;
+	cursor:pointer;
+}
+
+#footer a {
+	height: 64px;
+	position: relative;
+	display: block;
+	background: url(../images/footer-icons2.gif) 0 0 no-repeat; 
+}
+
+#footer a.facebook { background-position: 0 -30px; } 
+#footer a.lastfm { background-position: 0 -124px; } 
+#footer a.myspace { background-position: 0 -218px; } 
+#footer a.reverbnation { background-position: 0 -312px; } 
+#footer a.twitter { background-position: 0 -407px; } 
+#footer a.youtube { background-position: 0 -501px; } 
+
+.gallery {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+/* LYRICS */
+
+#lyrics-left {
+	float: left;
+	width: 150px;
+	font-family: "Lucida Console";
+	height: 400px;
+	
+
+}
+
+
+#lyrics-left li {
+	cursor:pointer;
+}
+
+#content .lyrics-right p {
+	font-family: "lucida console", monospace;
+	font-size: small;
+	text-align: justify;
+	line-height: 1.5em;
+	text-indent: 0em;
+}
+
+.lyrics-right div {
+	position: absolute;
+	right: 0;
+	border-left: .1em solid black;
+	border-top: .1em solid black;
+	border-bottom: .1em solid black;
+	padding-left: .3em;
+	margin-left: 10px;
+	width: 455px;
+	height: 400px;
+	overflow: auto;
+	display: none;
+}
+
+.lyrics-right h2 {
+	text-align: center;
+}
+
+.lyrics-right div.show {  
+     display:block;  
+}  

@@ -1,0 +1,153 @@
+<pre>MagpieRSS Object
+(
+    [parser] => 0
+    [current_item] => Array
+        (
+        )
+
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [title] => Road-trip time-lapse
+                    [pubdate] => Tue, 20 Jan 2009 18:50:53 -0500
+                    [link] => http://vimeo.com/2901305
+                    [dc] => Array
+                        (
+                            [creator] => Andre Navarro
+                        )
+
+                    [description] => <p><a href="http://vimeo.com/2901305" title="Road-trip time-lapse"><img src="http://images.vimeo.com/25/81/38/258138065/258138065_200.jpg" alt="Road-trip time-lapse" /></a></p><p>Time-lapse video of a road trip to from Maracaibo to Coro in Venezuela<br />
+<br />
+Music by The Chemical Brothers
+</p><p>Cast: <a href="http://vimeo.com/user868034" style="color: #2786c2; text-decoration: none;">Andre Navarro</a></p>
+                    [guid] => tag:vimeo,2009-01-20:clip2901305
+                    [media] => Array
+                        (
+                            [content] => 
+        
+                            [content_credit] => Andre Navarro
+                            [content_title] => Road-trip time-lapse
+                            [content_category] => maracaibo, coro, venezuela, time-lapse, road trip
+                        )
+
+                    [content] => 
+        
+        
+        
+        
+      
+                    [category] => maracaibocorovenezuelatime-lapseroadtrip
+                    [summary] => <p><a href="http://vimeo.com/2901305" title="Road-trip time-lapse"><img src="http://images.vimeo.com/25/81/38/258138065/258138065_200.jpg" alt="Road-trip time-lapse" /></a></p><p>Time-lapse video of a road trip to from Maracaibo to Coro in Venezuela<br />
+<br />
+Music by The Chemical Brothers
+</p><p>Cast: <a href="http://vimeo.com/user868034" style="color: #2786c2; text-decoration: none;">Andre Navarro</a></p>
+                    [atom_content] => 
+
+                    [date_timestamp] => 1232495453
+                )
+
+            [1] => Array
+                (
+                    [title] => Paragliding in Merida, VE
+                    [pubdate] => Sun, 11 Jan 2009 17:21:12 -0500
+                    [link] => http://vimeo.com/2795454
+                    [dc] => Array
+                        (
+                            [creator] => Andre Navarro
+                        )
+
+                    [description] => <p><a href="http://vimeo.com/2795454" title="Paragliding in Merida, VE"><img src="http://images.vimeo.com/24/72/90/247290432/247290432_200.jpg" alt="Paragliding in Merida, VE" /></a></p><p>We tried paragliding in Venezuela for the first time and it freaking rocked...
+</p><p>Cast: <a href="http://vimeo.com/user868034" style="color: #2786c2; text-decoration: none;">Andre Navarro</a></p>
+                    [guid] => tag:vimeo,2009-01-11:clip2795454
+                    [media] => Array
+                        (
+                            [content] => 
+        
+                            [content_credit] => Andre Navarro
+                            [content_title] => Paragliding in Merida, VE
+                            [content_category] => paragliding, merida, venezuela, tierra negra
+                        )
+
+                    [content] => 
+        
+        
+        
+        
+      
+                    [category] => paraglidingmeridavenezuelatierranegra
+                    [summary] => <p><a href="http://vimeo.com/2795454" title="Paragliding in Merida, VE"><img src="http://images.vimeo.com/24/72/90/247290432/247290432_200.jpg" alt="Paragliding in Merida, VE" /></a></p><p>We tried paragliding in Venezuela for the first time and it freaking rocked...
+</p><p>Cast: <a href="http://vimeo.com/user868034" style="color: #2786c2; text-decoration: none;">Andre Navarro</a></p>
+                    [atom_content] => 
+
+                    [date_timestamp] => 1231712472
+                )
+
+        )
+
+    [channel] => Array
+        (
+            [title] => Vimeo / Andre Navarro's uploaded videos
+            [link] => http://vimeo.com/user868034/videos/uploaded
+            [description] => Videos uploaded to Vimeo by Andre Navarro
+            [pubdate] => Tue, 20 Jan 2009 18:50:53 -0500
+            [language] => en-us
+            [generator] => The Vimeo
+            [docs] => http://www.rssboard.org/rss-specification
+            [tagline] => Videos uploaded to Vimeo by Andre Navarro
+        )
+
+    [textinput] => Array
+        (
+        )
+
+    [image] => Array
+        (
+            [url] => http://bitcast.vimeo.com/vimeo/portraits/defaults/d.75.jpg
+            [title] => Vimeo / Andre Navarro's uploaded videos
+            [link] => http://vimeo.com/user868034/videos/uploaded
+        )
+
+    [feed_type] => RSS
+    [feed_version] => 2.0
+    [encoding] => ISO-8859-1
+    [_source_encoding] => 
+    [ERROR] => 
+    [WARNING] => 
+    [_CONTENT_CONSTRUCTS] => Array
+        (
+            [0] => content
+            [1] => summary
+            [2] => info
+            [3] => title
+            [4] => tagline
+            [5] => copyright
+        )
+
+    [_KNOWN_ENCODINGS] => Array
+        (
+            [0] => UTF-8
+            [1] => US-ASCII
+            [2] => ISO-8859-1
+        )
+
+    [stack] => Array
+        (
+        )
+
+    [inchannel] => 
+    [initem] => 
+    [incontent] => 
+    [intextinput] => 
+    [inimage] => 
+    [current_namespace] => 
+    [last_modified] => Tue, 20 Jan 2009 23:50:53 GMT
+
+    [from_cache] => 1
+)
+<h2>Music Videos</h2><ul><li><p>Road-trip time-lapse<p>
+
+</li><li><p>Paragliding in Merida, VE<p>
+
+</li>
+</ul>

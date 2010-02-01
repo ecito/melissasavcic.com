@@ -1,0 +1,2 @@
+[08-Jun-2009 09:39:20] PHP Warning:  require_once(magpierss/rss_fetch.inc): failed to open stream: No such file or directory in /home/andren/public_html/melissasavcic.com/dev/rss/test.php on line 2
+[08-Jun-2009 09:39:20] PHP Fatal error:  require_once(): Failed opening required 'magpierss/rss_fetch.inc' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/andren/public_html/melissasavcic.com/dev/rss/test.php on line 2

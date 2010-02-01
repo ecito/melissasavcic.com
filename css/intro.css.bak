@@ -1,0 +1,188 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* style reset v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End reset */
+
+
+
+/* Begin my stuff */
+
+html, body {
+	margin: 0;
+	padding: 0;
+	background: url(../images/texturetile.jpg);
+	background-color:#000;
+	overflow: hidden;
+}
+
+#intro-container {
+	padding-top: 70px;
+	width:600px;
+	height:474px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+
+#intro-top {
+	width: 600px;
+	height: 73px;
+	background-image: url(../images/intro_top.gif);
+}
+#intro-top h1 {
+	text-indent: -5000px;
+}
+
+
+#intro-left {
+	width: 22px;
+	height: 371px;
+	float: left;
+	background-image: url(../images/intro_left.gif);
+}
+
+#intro-center {
+	background-image: url(../images/intro_center.jpg);
+	width: 555px;
+	height: 371px;
+	float: left;
+}
+
+#intro-right {
+	width: 23px;
+	height: 371px;
+	float: left;
+	background-image: url(../images/intro_right.gif);
+}
+
+#intro-bottom {
+	clear: both;
+	width: 600px;
+	height: 30px;
+	background-image: url(../images/intro_bottom.gif);
+}
+#enter {
+}
+
+#enter a {
+	cursor: pointer;
+	text-decoration: none;
+	
+}
+
+#enter h2 {
+	color: black;
+	font-family: "lucida console", monospace;
+	font-size: 2.5em;
+	text-align: center;
+}
+
+#upperLeftCorner { 
+	  display: block;
+	  position: absolute;
+	  left: 0;
+	  top: 0px;
+	  overflow: visible;
+	  width: 260px;
+	  height: 392px;
+	  margin: 0 0 0 0;
+	  padding: 0;
+	  z-index: 9999;
+	  border: none;
+	  float: none;
+	}
+#upperRightCorner { 
+	  display: block;
+	  position: absolute;
+	  right: 0;
+	  top: 0px;
+	  overflow: visible;
+	  width: 260px;
+	  height: 394px;
+	  margin: 0 0 0 0;
+	  padding: 0;
+	  z-index: 9999;
+	  border: none;
+	  float: none;
+	}
+#downLeftCorner { 
+	  display: block;
+	  position: absolute;
+	  left: 0;
+	  bottom: 0px;
+	  overflow: visible;
+	  width: 284px;
+	  height: 132px;
+	  margin: 0 0 0 0;
+	  padding: 0;
+	  z-index: 9999;
+	  border: none;
+	  float: none;
+	}
+#downRightCorner { 
+	  display: block;
+	  position: absolute;
+	  right: 0;
+	  bottom: 0px;
+	  overflow: visible;
+	  width: 284px;
+	  height: 132px;
+	  margin: 0 0 0 0;
+	  padding: 0;
+	  z-index: 9999;
+	  border: none;
+	  float: none;
+	}
